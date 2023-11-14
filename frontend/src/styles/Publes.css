@@ -1,0 +1,66 @@
+.container {
+    padding-top: 220px;
+}
+
+.grid-template {
+    margin: 30px auto;
+  padding-top: 90px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 600px);
+  grid-template-areas:
+    'left-high left-high left-high left-high right-high right-high'
+    'left-low left-low middle-low middle-low right-low right-low';
+  column-gap: 15px;
+  gap: 25px;
+  max-width: 1252px;
+  border: 1px solid black;
+  position: relative;
+  }
+  
+  /* Добавьте стили для ваших изображений как в предыдущем коде */
+  
+  
+  .grid-template-item-1 {
+    grid-area: left-high;
+    background-image: url('../styles/publs/1.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .grid-template-item-2 {
+    grid-area: right-high;
+    background-image: url('../styles/publs/2.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .grid-template-item-3 {
+    grid-area: left-low;
+    background-image: url('../styles/publs/3.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .grid-template-item-4 {
+    grid-area: middle-low;
+    background-image: url('../styles/publs/4.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .grid-template-item-5 {
+    grid-area: right-low;
+    background-image: url('../styles/publs/5.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .image-caption {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+
+    top: 0;
+    left: 0;
+  }

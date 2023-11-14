@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    background-color: #3d3d3d;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div {
+    width: 250px;
+    margin: 0 50px;
+    color: #fff;
+}
+
+.telega {
+    width: 40px;
+}

@@ -1,0 +1,91 @@
+.wow {
+    display: grid;
+    border: 1px #000 solid;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #0000004f;
+    margin: 50px auto;
+    width: 1252px;
+    height: 1000px;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "r1 ya"
+    "r2 ya"
+    "r3 ya"
+    "r4 ya"
+    "r5 ya"
+    "r6 ya"
+    "r7 ya"
+    
+    
+}
+
+.r1 {
+    grid-area: r1;
+    align-self: center;
+    justify-self: center;
+    font-size: 30px;
+}
+.r2 {
+    display: flex;
+    grid-area: r2;
+    align-self: center;
+    margin-left: 50px;
+    align-items: center;
+}
+.r3 {
+    display: flex;
+    grid-area: r3;
+    align-self: center;
+    margin-left: 50px;
+    align-items: center;
+}
+.r4 {
+    display: flex;
+    grid-area: r4;
+    align-self: center;
+    margin-left: 50px;
+    align-items: center;
+}
+.r5 {
+    display: flex;
+    grid-area: r5;
+    align-self: center;
+    margin-left: 50px;
+    align-items: center;
+}
+.r6 {
+    display: flex;
+    grid-area: r6;
+    align-self: center;
+    margin-left: 50px;
+    align-items: center;
+}
+.r7 {
+    display: flex;
+    grid-area: r7;
+    align-self: center;
+    margin-left: 50px;
+    align-items: center;
+}
+.r8 {
+    display: flex;
+    grid-area: ya;
+    width: 100px;
+    align-self: center;
+    margin-left: 50px;
+    align-items: center;
+}
+.ya {
+    width: 500px;
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #0000004f;
+}
+.icon {
+    width: 70px;
+}
+.wow div p {
+    font-size: 20px;
+    margin-left: 20px;
+}

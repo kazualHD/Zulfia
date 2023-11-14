@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-6 {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 600px);
+    grid-template-areas: 
+    'a a b b c c '
+    '. d d d d .'
+    'e e f f f f'
+    'g g h h i i'
+    'j j k k k k'
+    'l l m m m m'
+    'n n o o o o';
+    gap: 50px;
+    padding: 100px;
+    max-width: 1252px;
+    border: 1px solid black;
+    border-radius: 25px;
+    position: relative;
+}
+
+.grid-about-me-1 {
+    grid-area: a;
+    background-image: url('./1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+.grid-about-me-2 {
+    grid-area: b;
+    background-image: url('./2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.grid-about-me-3 {
+    grid-area: c;
+    background-image: url('./3.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.grid-about-me-4 {
+    grid-area: d;
+    background-image: url('./4.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.grid-about-me-5 {
+    grid-area: e;
+    background-image: url('./5.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.grid-about-me-6 {
+    grid-area: f;
+    background-image: url('./6.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.grid-about-me-7 {
+    grid-area: g;
+    background-image: url('./7.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.grid-about-me-8 {
+    grid-area: h;
+    background-image: url('./8.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.grid-about-me-9 {
+    grid-area: i;
+    background-image: url('./9.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+} 
+.grid-about-me-10 {
+    grid-area: j;
+    background-image: url('./10.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+} 
+.grid-about-me-11 {
+    grid-area: k;
+    background-image: url('./11.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+} 
+.grid-about-me-12 {
+    grid-area: l;
+    background-image: url('./12.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+} 
+.grid-about-me-13 {
+    grid-area: m;
+    background-image: url('./13.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+} 
+.grid-about-me-14 {
+    grid-area: n;
+    background-image: url('./14.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+} 
+.grid-about-me-15 {
+    grid-area: o;
+    background-image: url('./15.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.image-caption {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-size: 45px;
+    margin: 15px;
+}

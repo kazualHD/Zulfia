@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../styles/fon.jpg);
+    background-size: 300px;
+}
+
+header {
+    display: flex;
+    background-color: #f1f1f1;
+    padding: 20px;
+    justify-content: center;
+    box-shadow: 0 5px 5px -1px rgba(0, 0, 0, 0.205);
+
+}
+
+header div {
+    background-color: #dca5fa;
+    margin: 0 10px;
+    display: block;
+    padding: 10px;
+    width: 170px;
+    text-align: center;
+    border: 1px rgba(0, 0, 0, 0.283) solid;
+    border-radius: 50px;
+    font: caption;
+    cursor: pointer;
+    transition: .5s;
+}
+
+header div ul {
+    position: absolute;
+    
+}
+
+header div ul li {
+    background-color: #dca5fa;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    width: 170px;
+    padding: 10px;
+    list-style-type: none;
+    position: relative;
+    top: 10px;
+    right: 10px;
+    border: 1px rgba(0, 0, 0, 0.273) solid;
+    border-radius: 50px;
+    display: none;
+    transition: .5s;
+}
+
+header div ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+header div:hover {
+    background-color: rgb(235, 211, 255);
+}
+
+header div:hover ul li {
+   display: block;
+}
+
+header div ul li:hover {
+    background-color: rgb(235, 211, 255);
+}
+
+
+header div p a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: #000000;
+}
