@@ -18,4 +18,4 @@ start:
 publish:
 	npm publish --dry-run
 build:
-	npm run build
+	cd frontend && npm run build
