@@ -14,9 +14,10 @@
     'left-high left-high left-high left-high right-high right-high'
     'left-low left-low middle-low middle-low right-low right-low';
   column-gap: 15px;
-  gap: 25px;
+  gap: 40px;
   max-width: 1252px;
-  border: 1px solid black;
+  border: 0px solid black;
+  box-shadow: 5px 5px 10px #0000004f;
   border-radius: 25px;
   position: relative;
   }

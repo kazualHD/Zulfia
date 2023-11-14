@@ -19,7 +19,8 @@
     gap: 50px;
     padding: 100px;
     max-width: 1252px;
-    border: 1px solid black;
+    border: 0px solid black;
+     box-shadow: 5px 5px 10px #0000004f;
     border-radius: 25px;
     position: relative;
 }
