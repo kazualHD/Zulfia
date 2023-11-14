@@ -3,7 +3,9 @@
 }
 
 .grid-template {
+  background: #fff;
     margin: 30px auto;
+    padding: 40px;
   padding-top: 90px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -15,6 +17,7 @@
   gap: 25px;
   max-width: 1252px;
   border: 1px solid black;
+  border-radius: 25px;
   position: relative;
   }
   

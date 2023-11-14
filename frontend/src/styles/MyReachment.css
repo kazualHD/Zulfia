@@ -3,6 +3,7 @@
 }
 
 .grid-6 {
+    background: #fff;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
