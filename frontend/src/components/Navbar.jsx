@@ -22,7 +22,7 @@ const Navbar = () => {
       </div>
       <div><p><Link to="/">Педагогам</Link></p></div>
       <div>
-        <p><Link to="/">Родителям</Link></p>
+        <p><Link to="/parents">Родителям</Link></p>
         <ul>
           <li><Link to="/">Консультации и памятки</Link></li>
           <li><Link to="/">Консультационный центр</Link></li>
