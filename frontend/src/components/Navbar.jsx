@@ -20,7 +20,7 @@ const Navbar = () => {
           <li><Link to="/">Ментальная арифметика</Link></li>
         </ul>
       </div>
-      <div><p><Link to="/">Педагогам</Link></p></div>
+      <div><p><Link to="/teachers">Педагогам</Link></p></div>
       <div>
         <p><Link to="/parents">Родителям</Link></p>
         <ul>

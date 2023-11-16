@@ -20,7 +20,7 @@ const Parents = () => {
                 <div><img class="rod" src={rod1} alt=""/></div>
                 <div class="a3">
                     <img class="skachat2" src={pdf} alt=""/>
-                    <div onClick={() => openPdf(gimnastka)}>Открыть учебник</div>
+                    <div class="pdf" onClick={() => openPdf(gimnastka)}>Открыть учебник</div>
                 </div>
             </div>
             <hr width="70%"/>
@@ -28,7 +28,7 @@ const Parents = () => {
                 <div><img class="rod" src={rod2} alt=""/></div>
                 <div class="a3">
                     <img class="skachat2" src={pdf} alt=""/>
-                    <div onClick={() => openPdf(mental)}>Открыть учебник</div>
+                    <div class="pdf" onClick={() => openPdf(mental)}>Открыть учебник</div>
                 </div>
             </div>
             <hr width="70%"/>
@@ -36,7 +36,7 @@ const Parents = () => {
                 <div><img class="rod" src={rod3} alt=""/></div>
                 <div class="a3">
                     <img class="skachat2" src={pdf} alt=""/>
-                    <div onClick={() => openPdf(skorochet)}>Открыть учебник</div>
+                    <div class="pdf" onClick={() => openPdf(skorochet)}>Открыть учебник</div>
                 </div>
             </div>
         </div>

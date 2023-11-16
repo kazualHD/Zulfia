@@ -5,7 +5,8 @@ import ImteacherPage from './pages/ImTeacherPage';
 import MainPage from './pages/MainPage';
 import MyPublPage from './pages/MyPublPage';
 import MyReachmentPage from './pages/MyReacmentPage';
-import ParentsPage from './pages/ParentsPage.jsx';
+import ParentsPage from './pages/ParentsPage';
+import TeachersPage from './pages/TeachersPage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path={routes.myPublsPage()} element={<MyPublPage />} />
         <Route path={routes.resultsPage()} element={<MyReachmentPage />} />
         <Route path={routes.parentsPage()} element={<ParentsPage />} />
+        <Route path={routes.teachersPage()} element={<TeachersPage />} />
       </Routes>
     </BrowserRouter>
   );

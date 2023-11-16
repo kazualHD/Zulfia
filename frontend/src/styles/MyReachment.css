@@ -1,16 +1,14 @@
-.container {
-    margin: 60px 0;
-}
+
 
 .grid-6 {
     background: #fff;
-    margin: 0 auto;
+    margin: 30px auto;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(7, 600px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 600px 200px 600px 200px 600px 200px 600px 200px 600px;
     grid-template-areas: 
-    'a a b b c c '
-    '. d d d d .'
+    'd d d'
+    ''
     'e e f f f f'
     'g g h h i i'
     'j j k k k k'
@@ -19,10 +17,11 @@
     gap: 50px;
     padding: 100px;
     max-width: 1252px;
-    border: 0px solid black;
-     box-shadow: 5px 5px 10px #0000004f;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px #0000004f;
     border-radius: 25px;
     position: relative;
+    z-index: -1;
 }
 
 .grid-about-me-1 {
@@ -96,13 +95,7 @@
     background-position: center center;
     background-repeat: no-repeat;
 } 
-.grid-about-me-11 {
-    grid-area: k;
-    background-image: url('../styles/reaches/11.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-} 
+
 .grid-about-me-12 {
     grid-area: l;
     background-image: url('../styles/reaches/12.jpg');
@@ -110,13 +103,7 @@
     background-position: center center;
     background-repeat: no-repeat;
 } 
-.grid-about-me-13 {
-    grid-area: m;
-    background-image: url('../styles/reaches/13.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-} 
+
 .grid-about-me-14 {
     grid-area: n;
     background-image: url('../styles/reaches/14.jpg');
@@ -124,13 +111,7 @@
     background-position: center center;
     background-repeat: no-repeat;
 } 
-.grid-about-me-15 {
-    grid-area: o;
-    background-image: url('../styles/reaches/15.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
+
 .image-caption {
     position: absolute;
     text-align: center;

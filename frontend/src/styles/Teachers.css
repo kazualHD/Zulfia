@@ -1,33 +1,31 @@
-.a1 {
+.t1 {
     width: 1252px;
     margin: 30px auto;
     border: 0px #000 solid;
     border-radius: 25px;
     box-shadow: 5px 5px 10px #0000007a;
-    background-color: #fff;
+    background: #fff;
 }
 
-.a2 {
+.t2 {
     display: flex;
     padding: 50px;
 }
 
-.a3 {
+.t3 {
     display: flex;
     align-items: center;
     margin-left: 180px;
 }
 
-.skachat2 {
+.skachat {
     width: 60px;
 }
 
-.rod {
+.ucheb {
     box-shadow: 2px 2px 10px #000;
-    width: 600px;
 }
 
-.pdf {
+.t3 a {
     margin-left: 20px;
-    cursor: pointer;
 }

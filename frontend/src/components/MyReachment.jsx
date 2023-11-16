@@ -2,7 +2,6 @@ import '../styles/MyReachment.css';
 
 const MyReachment = () => {
     return (
-        <div className="container">
         <div class="grid-6">
             <div class="grid-about-me grid-about-me-1"></div>
             <div class="grid-about-me grid-about-me-2"></div>
@@ -19,9 +18,9 @@ const MyReachment = () => {
             <div class="grid-about-me grid-about-me-13"></div>
             <div class="grid-about-me grid-about-me-14"></div>
             <div class="grid-about-me grid-about-me-15"></div>
-            <h2 class="image-caption"> Мои Достижения</h2>
+            <h2 class="image-caption"> Мои достижения</h2>
         </div>
-        </div>
+       
     )
 }
 export default MyReachment;
