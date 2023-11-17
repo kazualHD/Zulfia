@@ -9,7 +9,7 @@ const MyPubls = () => {
        <div class="grid-template-item grid-template-item-3"></div>
        <div class="grid-template-item grid-template-item-4"></div>
        <div class="grid-template-item grid-template-item-5"></div>
-       <h2 class="image-caption"> Мои Публикации</h2>
+       
     </div>
     </div>
 

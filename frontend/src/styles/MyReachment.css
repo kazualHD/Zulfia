@@ -4,121 +4,112 @@
     background: #fff;
     margin: 30px auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 600px 200px 600px 200px 600px 200px 600px 200px 600px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 600px 50px 600px 50px 600px 50px 600px 50px 600px;
     grid-template-areas: 
-    'd d d'
-    ''
-    'e e f f f f'
-    'g g h h i i'
-    'j j k k k k'
-    'l l m m m m'
-    'n n o o o o';
-    gap: 50px;
-    padding: 100px;
+    '. d d d d .'
+    'zz1 . . . . .'
+    'n n l l j j'
+    'zz2 . . . . .'
+    'i i h h g g'
+    'zz3 . . . . .'
+    'f f e e c c'
+    'zz4 . . . . .'
+    '. b b a a .';
+    
+    padding: 0px;
     max-width: 1252px;
-    border: 1px solid black;
+    border: 0px solid black;
     box-shadow: 5px 5px 10px #0000004f;
     border-radius: 25px;
     position: relative;
     z-index: -1;
 }
 
-.grid-about-me-1 {
-    grid-area: a;
-    background-image: url('../styles/reaches/1.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+.grid-6 div {
+    margin: 20px;
+}
 
-}
-.grid-about-me-2 {
-    grid-area: b;
-    background-image: url('../styles/reaches/2.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-.grid-about-me-3 {
-    grid-area: c;
-    background-image: url('../styles/reaches/3.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-.grid-about-me-4 {
-    grid-area: d;
-    background-image: url('../styles/reaches/4.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-.grid-about-me-5 {
-    grid-area: e;
-    background-image: url('../styles/reaches/5.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-.grid-about-me-6 {
-    grid-area: f;
-    background-image: url('../styles/reaches/6.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-.grid-about-me-7 {
-    grid-area: g;
-    background-image: url('../styles/reaches/7.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-.grid-about-me-8 {
-    grid-area: h;
-    background-image: url('../styles/reaches/8.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-.grid-about-me-9 {
-    grid-area: i;
-    background-image: url('../styles/reaches/9.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-} 
-.grid-about-me-10 {
-    grid-area: j;
-    background-image: url('../styles/reaches/10.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-} 
-
-.grid-about-me-12 {
-    grid-area: l;
-    background-image: url('../styles/reaches/12.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-} 
-
-.grid-about-me-14 {
-    grid-area: n;
-    background-image: url('../styles/reaches/14.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-} 
-
-.image-caption {
-    position: absolute;
-    text-align: center;
-    padding: 10px;
+.grid-6 img {
     width: 100%;
-    top: 0;
-    left: 0;
-    font-size: 45px;
-    margin: 15px;
+}
+
+.z1 {
+    grid-area: a;
+}
+
+.z2 {
+    grid-area: b;
+}
+
+.z3 {
+    grid-area: c;
+}
+
+.z4 {
+    grid-area: d;
+}
+
+.z4 img {
+    border: 3px purple solid;
+}
+
+.z5 {
+    grid-area: e;
+}
+
+.z6 {
+    grid-area: f;
+}
+
+.z6 img {
+    margin-top: 120px;
+}
+
+.z7 {
+    grid-area: g;
+}
+
+.z8 {
+    grid-area: h;
+}
+
+.z9 {
+    grid-area: i;
+}
+
+.z10 {
+    grid-area: j;
+}
+
+.z12 {
+    grid-area:l;
+}
+
+.z14 {
+    grid-area: n;
+}
+
+.zz1 {
+    grid-area: zz1;
+    text-align: center;
+    color: purple;
+}
+
+.zz2 {
+    grid-area: zz2;
+    text-align: center;
+    color: purple;
+}
+
+.zz3 {
+    grid-area: zz3;
+    text-align: center;
+    color: purple;
+}
+
+.zz4 {
+    grid-area: zz4;
+    text-align: center;
+    color: purple;
 }

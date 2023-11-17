@@ -25,7 +25,8 @@
     grid-area: r1;
     align-self: center;
     justify-self: center;
-    font-size: 30px;
+    font-size: 25px;
+    color: purple;
 }
 .r2 {
     display: flex;
