@@ -27,10 +27,10 @@ const MyReachment = () => {
             <div class="z10"><img src={f10} alt="" /></div>
             <div class="z12"><img src={f12} alt="" /></div>
             <div class="z14"><img src={f14} alt="" /></div>
-            <div class="zz1"><h1>2023-2021</h1></div>
-            <div class="zz2"><h1>2020-2019</h1></div>
-            <div class="zz3"><h1>2019-2013</h1></div>
-            <div class="zz4"><h1>2012-2011</h1></div>
+            <div class="zz1"><h1>2021-2023</h1></div>
+            <div class="zz2"><h1>2019-2020</h1></div>
+            <div class="zz3"><h1>2013-2019</h1></div>
+            <div class="zz4"><h1>2011-2012</h1></div>
         </div>
        
     )
