@@ -2,7 +2,7 @@
 
 .container {
     padding: 20px;
-    max-width: 1252px;
+    max-width: 1152px;
     margin: 50px auto;
     height: 100%;
 
@@ -44,6 +44,9 @@
 .d-flex .w-40 {
     width: 40%;
 }
+.d-flex .w-60 {
+    width: 60%;
+}
 
 
 
@@ -70,9 +73,7 @@
 .png-2 {
     width: 100%;
 }
-.w-50 {
-    width: 50%;
-}
+
 
 .d-flex {
     display: flex;
@@ -101,6 +102,12 @@
 }
 .m-50 {
     margin: 50px;
+}
+.pl-5 {
+    padding: 0 5px;
+}
+.pl-10 {
+    padding: 0 10px;
 }
 
 .f-1 {
