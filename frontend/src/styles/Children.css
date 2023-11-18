@@ -26,12 +26,26 @@
 }
 
 .child-container-grid img {
-    width: 100%;
+    width: 33%;
 }
 .child-container-grid .img-greeting {
     width: 50%;
 
 }
+.d-flex .w-50 {
+    width: 50%;
+}
+.d-flex .w-30 {
+    width: 30%;
+}
+.d-flex .w-100 {
+    width: 100%;
+}
+.d-flex .w-40 {
+    width: 40%;
+}
+
+
 
 .greeting {
   text-align: center;
@@ -113,4 +127,3 @@
 .f-5 {
     flex: 5 1 0;
 }
-

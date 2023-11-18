@@ -29,7 +29,6 @@ import pc28 from '../assests/children/30.JPG';
 import pc29 from '../assests/children/31.JPG';
 import pc30 from '../assests/children/32.jpg';
 import pc31 from '../assests/children/33.JPG';
-
 import '../styles/Children.css'
 
 const Children = () => {
@@ -85,7 +84,7 @@ const Children = () => {
 
     <div class='child-container-grid main-content'> Наш мозг состоит из двух полушарий – правого и левого. Каждое полушарие анализирует реальность по-разному. Левое полушарие «думает» о вещах с помощью слов, тогда как правое полушарие воспринимает вещи только в виде образов. Для развития обоих полушарий головного мозга, на каждом занятии используем кинезиологические упражнения. С детьми, мы называем эти упражнения просто, гимнастика для ума. 
        <div class='g-20 p-20 d-flex'>
-         <img src={pc3} alt="" />
+         <img className='w-30' src={pc3} alt="" />
          <img src={pc4} alt="" />
          <img src={pc5} alt="" />
        </div>
@@ -102,7 +101,7 @@ const Children = () => {
             <img src={pc8} alt="" />
         </div>
         <div className="d-flex img-but a-center ">
-            <img src={pc9} alt="" />
+            <img className='w-100' src={pc9} alt="" />
         </div>
      </div>
      <div className="main-content child-container-grid">
@@ -129,16 +128,16 @@ const Children = () => {
         <img className='f-1 p-20' src={pc12} alt="" />
      </div>
      <div className="child-container-grid">
-        <div className="d-flex p-20 g-20">
-            <img src={pc13} alt="" className="p-20" />
-            <img src={pc14} alt="" className="p-20" />
+        <div className="d-flex p-50">
+            <img src={pc13} alt="" className="p-20 w-50" />
+            <img src={pc14} alt="" className="p-20 w-50" />
         </div>
      </div>
 
      <div className="child-container-grid">
-        <div className="d-flex p-20 g-20">
-            <img src={pc15} alt="" className="p-20" />
-            <img src={pc16} alt="" className="p-20" />
+        <div className="d-flex p-50 ">
+            <img src={pc15} alt="" className="p-20 w-50" />
+            <img src={pc16} alt="" className="p-20 w-50" />
         </div>
      </div>
 
@@ -171,7 +170,7 @@ const Children = () => {
             <img className='m-20 f-1'  src={pc20} alt="" />
             <div className='d-flex d-column f-1 '>
                 <div className='p-20'>На занятиях мы работаем по рабочим тетрадям из серии «Креативная математика для дошкольников» под редакцией Р.Р.Абзалимова, изданные организацией АНО ДО «Открытая школа». В данной тетради представлены основы креативной математики с помощью Абакуса на сложение и вычитание целых чисел. Включено большое количество дополнительных заданий: лабиринты, цвета, закрепление прописи и др.</div>
-                <img className='m-20 w-50 p ' src={pc21} alt="" />
+                <img className='m-20 w-50 p w-100 ' src={pc21} alt="" />
             </div>
         </div>
 
@@ -198,25 +197,25 @@ const Children = () => {
         
         <div className="child-container-grid">
         <div className="d-flex p-20 g-20">
-            <img src={pc27} alt="" className="p-20" />
-            <img src={pc28} alt="" className="p-20" />
+            <img src={pc27} alt="" className="p-20 w-50" />
+            <img src={pc28} alt="" className="p-20 w-50" />
         </div>
      </div>
 
 
      <div className="child-container-grid">
         <div className="d-flex p-20 g-20 align-center">
-          <div>Упражнение  «Какое сегодня число?» Один ребенок выходит к дsоске и рисует палочку, перекладину и дорисовывает бусинки с текущей датой по календарю.</div>
+          <div>Упражнение  «Какое сегодня число?» Один ребенок выходит к доске и рисует палочку, перекладину и дорисовывает бусинки с текущей датой по календарю.</div>
             <img src={pc29} alt="" className="p-20" />
         </div>
      </div>
 
 
     
-     <div className="d-flex child-container-grid p-20 m-50 g-50 ">
-            <div className='d-flex f-5'>
-                <img src={pc30} alt="" />
-                <img className='m-20 w-50 ' src={pc31} alt="" />
+     <div className="d-flex child-container-grid p-20   ">
+            <div className='d-flex f-2'>
+                <img className='m-20 w-40 ' src={pc30} alt="" />
+                <img className='m-20 w-40 ' src={pc31} alt="" />
             </div>
            <div className='f-1 align-center'>На занятиях дети с удовольствием собирают пазлы, они очень помогают для закрепления пройденного материала.</div>
         </div>

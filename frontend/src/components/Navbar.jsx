@@ -35,12 +35,7 @@ const Navbar = () => {
           <li><Link to="/">Консультационный центр</Link></li>
         </ul>
       </div>
-<<<<<<< HEAD
-      <div><p><Link to="/">Детям</Link></p></div>
-      <div><p><Link to="/">Обо мне</Link></p></div>
-=======
       <div><p><Link to="/children">Детям</Link></p></div>
->>>>>>> 4e6c20a56a8b19618641028f8594cfcfbc4ba2d8
     </header>
   );
 }
