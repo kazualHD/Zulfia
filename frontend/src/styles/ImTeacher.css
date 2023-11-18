@@ -4,7 +4,7 @@
     width: 1252px;
     margin: 50px auto;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(1fr 0,8fr);
+    grid-template-rows: repeat(0,5fr 0,8fr);
     background-color: #fff;
     border-radius: 25px;
     box-shadow: 5px 5px 15px #0000008a;
@@ -28,7 +28,7 @@
 }
 
 .foto1 {
-    height: 700px;
+    height: 400px;
     border: 0px #000 solid;
     box-shadow: 3px 3px 5px #00000073;
     border-radius: 25px;
@@ -37,6 +37,7 @@
 .vosp h2 {
     font-size: 40px;
     text-align: center;
+    color: purple;
 }
 
 .vosp p {
@@ -44,5 +45,5 @@
     font-size: 20px;
 }
 .w1 {
-    margin-top: 520px;
+    margin-top: 50px;
 }

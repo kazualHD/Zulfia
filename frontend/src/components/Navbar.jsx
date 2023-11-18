@@ -21,21 +21,22 @@ const Navbar = () => {
         </ul>
       </div>
       <div>
-        <p><Link to="/teachers">Педагогам</Link></p>
+        <p><Link to="/">Педагогам</Link></p>
         <ul>
             <li><Link to="/">Нормативно-правовая база</Link></li>
-            <li><Link to="/">Пособия</Link></li>
+            <li><Link to="/teachers">Пособия</Link></li>
         </ul>
         </div>
       <div>
-        <p><Link to="/parents">Родителям</Link></p>
+        <p><Link to="/">Родителям</Link></p>
         <ul>
           <li><Link to="/">Консультации и памятки</Link></li>
-          <li><Link to="/">Методические пособия</Link></li>
+          <li><Link to="/parents">Методические пособия</Link></li>
           <li><Link to="/">Консультационный центр</Link></li>
         </ul>
       </div>
       <div><p><Link to="/">Детям</Link></p></div>
+      <div><p><Link to="/">Обо мне</Link></p></div>
     </header>
   );
 }

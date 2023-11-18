@@ -19,10 +19,10 @@ header {
 
 header div {
     background-color: #dca5fa;
-    margin: 0 10px;
+    margin: 0 5px;
     display: block;
     padding: 10px;
-    width: 170px;
+    width: 147px;
     text-align: center;
     border: 1px rgba(0, 0, 0, 0.283) solid;
     border-radius: 50px;
@@ -41,7 +41,7 @@ header div ul li {
     margin-top: 10px;
     font-size: 13px;
     font-weight: bold;
-    width: 170px;
+    width: 147px;
     padding: 10px;
     list-style-type: none;
     position: relative;
