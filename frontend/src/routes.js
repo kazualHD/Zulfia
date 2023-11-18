@@ -6,7 +6,8 @@ const routes = {
     imTeacherPage: () => '/im-teacher',
     myPublsPage: () => '/my-publs',
     parentsPage: () => '/parents',
-    teachersPage: () => '/teachers'
+    teachersPage: () => '/teachers',
+    childrenPage: () => '/children',
 }
 
 export default routes;

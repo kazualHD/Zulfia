@@ -28,7 +28,7 @@ const Navbar = () => {
           <li><Link to="/">Консультационный центр</Link></li>
         </ul>
       </div>
-      <div><p><Link to="/">Детям</Link></p></div>
+      <div><p><Link to="/children">Детям</Link></p></div>
     </header>
   );
 }
