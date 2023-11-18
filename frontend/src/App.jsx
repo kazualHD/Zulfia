@@ -7,6 +7,7 @@ import MyPublPage from './pages/MyPublPage';
 import MyReachmentPage from './pages/MyReacmentPage';
 import ParentsPage from './pages/ParentsPage';
 import TeachersPage from './pages/TeachersPage';
+import ChildrenPage from './pages/ChildrenPage.jsx';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path={routes.resultsPage()} element={<MyReachmentPage />} />
         <Route path={routes.parentsPage()} element={<ParentsPage />} />
         <Route path={routes.teachersPage()} element={<TeachersPage />} />
+        <Route path={routes.childrenPage()} element={<ChildrenPage />} />
       </Routes>
     </BrowserRouter>
   );
