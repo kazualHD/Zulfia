@@ -163,7 +163,7 @@ const Children = () => {
       <div className="main-content child-container-grid greeting">Ментальный счет. После того, как поработали  на физическом абакусе, детей прошу отодвинуть абакусы и подвожу  к визуализации. <br/>Предлагаю представить абакус в уме и перемещать бусины без использования абакуса, т.е приступаем к решению примеров ментально. 
     </div>
 
-    <iframe className='mental-arif' width="560" height="315" src="https://www.youtube.com/embed/cKn1E_tBD3M" frameborder="0" allowfullscreen title="Ментальный счет"></iframe>
+    <iframe class="mental-arif" width="560" height="315" src="https://www.youtube.com/embed/cKn1E_tBD3M?si=TdQztlFa2rEB3y42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
     <div className="d-flex child-container-grid p-20 m-50 g-50 ">
@@ -225,8 +225,8 @@ const Children = () => {
         <div className="main-content child-container-grid p-20">
         <div className='a-center'>Онлайн-занятия.<br/> С детьми которые не посещают долго детский сад, по каким либо причинам, провожу занятия дистанционно.</div>
         <div className="d-flex p-20 g-20">
-            <iframe  width="560" height="315" src="https://www.youtube.com/embed/53CF9KYF5nk" frameborder="0" allowfullscreen title="Ментальные занятия 1"></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/XcDhAqiQ62s" frameborder="0" allowfullscreen title="Ментальные занятия 2"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/53CF9KYF5nk?si=ydq0oT9Cb66PQYmS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XcDhAqiQ62s?si=xOMJHl2oHtrtsGBC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
      </div>
         
