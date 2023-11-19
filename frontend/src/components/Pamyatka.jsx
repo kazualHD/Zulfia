@@ -10,8 +10,8 @@ const Pamyatka = () => {
     const openPdf = (pdf) => {window.open(pdf, "_blank")}
     return (
         <div class="z">
-        <div class="pdf228" onClick={()=> openPdf(pdf1)}>Консультация на тему: «Ментальная арифметика. Включаем оба полушария»</div>
-        <div class="pdf228" onClick={()=> openPdf(pdf2)}>Консультация для родителей «Ментальная арифметика»</div>
+        <div class="pdf228" onClick={()=> openPdf(pdf1)}>Консультация «Ментальная арифметика. Включаем оба полушария»</div>
+        <div class="pdf228" onClick={()=> openPdf(pdf2)}>Консультация «Ментальная арифметика»</div>
         <div class="z1">
             <img src={a1} alt=""/>
             <img src={a2} alt=""/>
