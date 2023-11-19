@@ -1,0 +1,14 @@
+.y {
+    width: 1252px;
+    margin: 150px auto;
+    border: 1px #000 solid;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #00000077;
+    background-color: #fff;
+}
+
+.y p {
+    display: block;
+    margin: 40px;
+    font-size: 20px;
+}

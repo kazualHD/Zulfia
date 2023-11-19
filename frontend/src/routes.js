@@ -8,6 +8,10 @@ const routes = {
     parentsPage: () => '/parents',
     teachersPage: () => '/teachers',
     childrenPage: () => '/children',
+    qualifyPage: () => '/qualify',
+    bazaPage: () => '/baza',
+    pamyatkaPage: () => '/pamyatka',
+    centerPage: () => '/center',
 }
 
 export default routes;

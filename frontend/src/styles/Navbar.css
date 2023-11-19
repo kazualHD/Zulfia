@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body {
@@ -14,7 +15,6 @@ header {
     padding: 20px;
     justify-content: center;
     box-shadow: 0 5px 5px -1px rgba(0, 0, 0, 0.205);
-
 }
 
 header div {
@@ -74,5 +74,4 @@ header div p a {
     text-decoration: none;
     font-size: 13px;
     font-weight: bold;
-    color: #000000;
 }

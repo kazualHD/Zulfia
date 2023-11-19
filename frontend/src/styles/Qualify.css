@@ -1,0 +1,17 @@
+.p1 {
+    width: 1252px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 0px #000 solid;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #00000075;
+}
+
+.p2 {
+    display: flex;
+}
+
+.p2 img {
+    width: 46%;
+    margin: 20px;
+}
