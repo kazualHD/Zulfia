@@ -1,0 +1,32 @@
+.q {
+    background-color: #fff;
+    border: 1px #000 solid;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #00000076;
+    width: 1152px;
+    margin: 20px auto;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.x1 {
+    text-align: end;
+}
+
+.x2 {
+    text-align: center;
+}
+
+.q p {
+    color: purple;
+    font-weight: bold;
+}
+
+.q ul {
+    color: purple;
+}
+
+.q hr {
+    display: block;
+    margin: 100px auto;
+}

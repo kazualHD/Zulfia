@@ -8,6 +8,10 @@ import MyReachmentPage from './pages/MyReacmentPage';
 import ParentsPage from './pages/ParentsPage';
 import TeachersPage from './pages/TeachersPage';
 import ChildrenPage from './pages/ChildrenPage.jsx';
+import QualifyPage from './pages/QualifyPage.jsx';
+import BazaPage from './pages/BazaPage.jsx';
+import PamyatkaPage from './pages/PamyatkaPage.jsx';
+import CenterPage from './pages/CenterPage.jsx';
 
 function App() {
   return (
@@ -21,6 +25,10 @@ function App() {
         <Route path={routes.parentsPage()} element={<ParentsPage />} />
         <Route path={routes.teachersPage()} element={<TeachersPage />} />
         <Route path={routes.childrenPage()} element={<ChildrenPage />} />
+        <Route path={routes.qualifyPage()} element={<QualifyPage />} />
+        <Route path={routes.bazaPage()} element={<BazaPage />} />
+        <Route path={routes.pamyatkaPage()} element={<PamyatkaPage />} />
+        <Route path={routes.centerPage()} element={<CenterPage />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,0 +1,38 @@
+.z {
+    background-color: #fff;
+    width: 1152px;
+    padding: 50px;
+    margin: 20px auto;
+    border: 0px #000 solid;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #00000079;
+}
+
+.z p {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin: 30px;
+}
+
+.z img {
+    width: 45%;
+    margin: 30px;
+}
+
+.z1 {
+    display: flex;
+}
+
+.z2 {
+    display: flex;
+}
+
+.pdf228 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
