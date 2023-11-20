@@ -1,4 +1,3 @@
-import happyChildren from '../assests/children/happyChildren.png';
 import pc2 from '../assests/children/2.JPG';
 import pc3 from '../assests/children/3.JPG';
 import pc4 from '../assests/children/4.jpg';
@@ -17,11 +16,6 @@ import pc16 from '../assests/children/14.png';
 import pc17 from '../assests/children/17.JPG';
 import pc18 from '../assests/children/017.JPG';
 import pc19 from '../assests/children/18.JPG';
-import pc20 from '../assests/children/20.png';
-import pc21 from '../assests/children/19.JPG';
-import pc22 from '../assests/children/21.jpg';
-import pc23 from '../assests/children/22.jpg';
-import pc24 from '../assests/children/23.jpg';
 import pc25 from '../assests/children/26.jpeg';
 import pc26 from '../assests/children/27.JPG';
 import pc27 from '../assests/children/28.png';
@@ -38,8 +32,7 @@ const Children = () => {
       
         <div class="container display-grid-6 border-radius-25 p-50">
     <div class="greeting child-container-grid d-flex d-column ">
-        <h3 class="h1-greeting ">Ментальная арфметика, как средство развития интиеллектуальных способностей дошкольников</h3>
-        <img src={happyChildren} alt="" class="img-greeting p-20 a-center "/>
+        <h3 class="h1-greeting ">Развитие интеллектуального потенциала дошкольников в процессе освоения приемов ментальной арифметики</h3>
         <img src={start} alt="" class="img-greet-ing p20 a-center p-20 w-50"/>
     </div>
 
@@ -50,7 +43,7 @@ const Children = () => {
          <ul>
             <li> Гармоничное развитие обоих полушарий головного мозга</li>
             <li> Тренировка концентрации внимания</li>
-            <li> Тренировка фотографической и слоуховой памяти</li>
+            <li> Тренировка фотографической и слуховой памяти</li>
             <li> Тренировка скорости мышления</li>
          </ul>
     </div>
@@ -95,7 +88,7 @@ const Children = () => {
     
     <div className="main-content child-container-grid">
        <div><span className='pl-10'>Кинезиологические</span> упражнения (упражнения основаны на переходе из одной позиции в другую). Например такие упражнения как: «Кулачки – ладошки», «Колечко-цепочка», «Заяц-коза», «Кастрюлька – крышечка», «Окей-лайк», «Паучок», «Два пальца», «Яблочко и червячок», «Блинчики», «Лезгинка», «Дом – ёжик – замок»,  «Ухо – нос», «Собери карандаши», «Расправь бумагу» и т.д. Эти упражнения не только развивают мелкую моторику рук, но и полезно для координации движений детей. </div>
-       <div><span className='pl-5'>Также</span> одновременно рисуем двумя руками. Рисунки должны быть симметричными и предельно простыми: различные домик, цветок, бабочка, машинка, различные элементы узоров. Прежде чем начать рисовать детям объясняю, как правильно начать? Посередине необходимо провести линию симметрии, она поможет художнику ориентироваться, ведь у каждой руки – </div>
+       <div><span className='pl-5'>Также</span> одновременно рисуем двумя руками. Рисунки должны быть симметричными и предельно простыми: различные домик, цветок, бабочка, машинка, различные элементы узоров. Прежде чем начать рисовать детям объясняю, как правильно начать? Посередине необходимо провести линию симметрии, она поможет художнику ориентироваться, ведь у каждой руки – собственная половина листа и они не должны друг другу мешать. Если объяснить детям, то они сразу поймут, для чего нужна эта линия. Можно согнуть лист вдоль нее и половинки рисунка совпадут. Главное правило – рисуем двумя руками ОДНОВРЕМЕННО!</div>
     </div>
      <div className="child-container-grid main-content">
         <div className="d-flex p-20 g-20">
@@ -172,22 +165,6 @@ const Children = () => {
 
     <iframe class="mental-arif" width="560" height="315" src="https://www.youtube.com/embed/cKn1E_tBD3M?si=TdQztlFa2rEB3y42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-
-    <div className="d-flex child-container-grid p-20 m-50 g-50 ">
-            <img className='m-20 f-1'  src={pc20} alt="" />
-            <div className='d-flex d-column f-1 '>
-                <div className='p-20'>На занятиях мы работаем по рабочим тетрадям из серии «Креативная математика для дошкольников» под редакцией Р.Р.Абзалимова, изданные организацией АНО ДО «Открытая школа». В данной тетради представлены основы креативной математики с помощью Абакуса на сложение и вычитание целых чисел. Включено большое количество дополнительных заданий: лабиринты, цвета, закрепление прописи и др.</div>
-                <img className='m-20 w-50 p w-100 ' src={pc21} alt="" />
-            </div>
-        </div>
-
-        <div class='child-container-grid p-20'>  
-             <div class='g-20 p-20 d-flex'>
-               <img src={pc22} alt="" />
-               <img src={pc23} alt="" />
-               <img src={pc24} alt="" />
-             </div>
-        </div>
         
         <div className="main-content child-container-grid "> <div>
              <span className='pl-5'>Ещё</span> одно упражнение Струп – тест, он отлично тренирует память детей, ребенку нужно внимательно читать слова и называть не слово, которое написано, а назвать цвет,  которым это слово написано. </div>
@@ -236,9 +213,11 @@ const Children = () => {
         <div className="main-content child-container-grid p-20">
         <div className=''>Онлайн-занятия. С детьми которые не посещают долго детский сад, по каким либо причинам, провожу занятия дистанционно.</div>
         <div className="d-flex p-20 g-20">
+        </div>
+        
         <iframe width="560" height="315" src="https://www.youtube.com/embed/53CF9KYF5nk?si=ydq0oT9Cb66PQYmS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/XcDhAqiQ62s?si=xOMJHl2oHtrtsGBC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
+        
      </div>
       
       

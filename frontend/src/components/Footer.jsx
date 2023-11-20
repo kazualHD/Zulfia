@@ -9,7 +9,7 @@ const Footer = () => {
         <div><p>Адрес: Республика Башкортостан, город Уфа улица Степана Кувыкина, 3/1</p></div>
         <div><p>E-mail детского сада: ufadetsad50@yandex.ru</p></div>
         <div><p>Мой E-mail: zulfiya.sultanova.78@mail.ru</p></div>
-        <div><img className='telega' src={telegram} alt='teltegram' /><p>(ссылка на тг)</p></div>
+        <div><a href="https://t.me//zulfiyagafur"><img className='telega' src={telegram} alt='teltegram' /></a></div>
     </footer>
     )
 }
