@@ -23,15 +23,9 @@ const Navbar = () => {
       <div>
         <p><Link to="/">Педагогам</Link></p>
         <ul>
-<<<<<<< HEAD
-            <li><Link to="/baza">Нормативно-правовая база</Link></li>
-            <li><Link to="/teachers">Пособия</Link></li>
-        </ul>s
-=======
             <Link to="/baza"><li>Нормативно-правовая база</li></Link>
             <Link to="/teachers"><li>Пособия</li></Link>
         </ul>
->>>>>>> 2f99156c1ad9983336229e13d2139404d837c7f7
         </div>
       <div>
         <p><Link to="/">Родителям</Link></p>
@@ -41,13 +35,8 @@ const Navbar = () => {
           <Link to="/center"><li>Консультационный центр</li></Link>
         </ul>
       </div>
-<<<<<<< HEAD
-      <div><p><Link to="/children-games">Детям</Link></p></div>
-      <div><p><Link to="/">Обо мне</Link></p></div>
-=======
-      <Link to="/"><div><p>Детям</p></div></Link>
+      <Link to="/children-games"><div><p>Детям</p></div></Link>
       <Link to="/svyaz"><div><p>Обратная связь</p></div></Link>
->>>>>>> 2f99156c1ad9983336229e13d2139404d837c7f7
     </header>
   );
 }

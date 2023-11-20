@@ -29,13 +29,14 @@ import '../styles/Children.css'
 
 const Children = () => {
     return (
-      
+      <>
+       
         <div class="container display-grid-6 border-radius-25 p-50">
+      
     <div class="greeting child-container-grid d-flex d-column ">
         <h3 class="h1-greeting ">Развитие интеллектуального потенциала дошкольников в процессе освоения приемов ментальной арифметики</h3>
         <img src={start} alt="" class="img-greet-ing p20 a-center p-20 w-50"/>
     </div>
-
     <section class="main-content child-container-grid">
     <div><span className="pl-5">Социальный</span> заказ государства и общества ставит перед современной педагогикой задачу по созданию условий обеспечивающих выявление и развитию детской одаренности через внедрение инновационных образовательных технологий. Результатом такого поиска стал курс ментальная арифметика.</div>
     <div> <span className="pl-5"><b>Ментальная арифметика</b></span>  – это программа развития умственных  способностей и творческого  потенциала детей с помощью арифметических вычислений на абакусе. Решение нестандартных  задач, выполнение творческих заданий социально педагогической направленности.</div>
@@ -161,10 +162,10 @@ const Children = () => {
         <span className='pl-5'>Ментальный</span> счет. После того, как поработали  на физическом абакусе, детей прошу отодвинуть абакусы и подвожу  к визуализации. <br/>Предлагаю представить абакус в уме и перемещать бусины без использования абакуса, т.е приступаем к решению примеров ментально. 
        </div>
     </div>
+    <div class="video2"> <iframe class='video' width="560" height="315" src="https://www.youtube.com/embed/cKn1E_tBD3M?si=UwMhwZU9iv0QrM52" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
-    <iframe class="mental-arif" width="560" height="315" src="https://www.youtube.com/embed/cKn1E_tBD3M?si=TdQztlFa2rEB3y42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   
 
-        
         <div className="main-content child-container-grid "> <div>
              <span className='pl-5'>Ещё</span> одно упражнение Струп – тест, он отлично тренирует память детей, ребенку нужно внимательно читать слова и называть не слово, которое написано, а назвать цвет,  которым это слово написано. </div>
         </div>
@@ -209,14 +210,16 @@ const Children = () => {
        
 
 
-        <div className="main-content child-container-grid p-20">
-        <div className=''>Онлайн-занятия. С детьми которые не посещают долго детский сад, по каким либо причинам, провожу занятия дистанционно.</div>
-        <div className="d-flex p-20 g-20">
+        <div className="child-container-grid p-20">
+        <div>Онлайн-занятия. С детьми которые не посещают долго детский сад, по каким либо причинам, провожу занятия дистанционно.
         </div>
-        
+
+        <div className="d-flex p-20 g-20">
+
+        <div className="child-container-grid d-flex p-20 g-50"></div>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/53CF9KYF5nk?si=ydq0oT9Cb66PQYmS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/XcDhAqiQ62s?si=xOMJHl2oHtrtsGBC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XcDhAqiQ62s?si=IuyLleJMDdtrqGAz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
+     </div>
      </div>
       
       
@@ -235,8 +238,8 @@ const Children = () => {
          <h2 className='p-20 m-20'> Спасибо за внимание!  </h2>
         
         </div>
-          
      </div>
+      </>
     )
 }
 

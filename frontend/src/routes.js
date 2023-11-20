@@ -12,11 +12,8 @@ const routes = {
     bazaPage: () => '/baza',
     pamyatkaPage: () => '/pamyatka',
     centerPage: () => '/center',
-<<<<<<< HEAD
-    childrenGamesPage: () => '/children-games',
-=======
     svyazPage: () => '/svyaz',
->>>>>>> 2f99156c1ad9983336229e13d2139404d837c7f7
+    chidrenGamesPage: () => '/children-games',
 }
 
 export default routes;

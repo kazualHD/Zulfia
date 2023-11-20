@@ -12,11 +12,8 @@ import QualifyPage from './pages/QualifyPage.jsx';
 import BazaPage from './pages/BazaPage.jsx';
 import PamyatkaPage from './pages/PamyatkaPage.jsx';
 import CenterPage from './pages/CenterPage.jsx';
-<<<<<<< HEAD
-import ChildrenGames from './components/ChildrenGames.jsx';
-=======
 import SvyazPage from './pages/SvyazPage.jsx';
->>>>>>> 2f99156c1ad9983336229e13d2139404d837c7f7
+import ChildrenGamesPage from './pages/ChildreGamesPage.jsx';
 
 function App() {
   return (
@@ -34,11 +31,8 @@ function App() {
         <Route path={routes.bazaPage()} element={<BazaPage />} />
         <Route path={routes.pamyatkaPage()} element={<PamyatkaPage />} />
         <Route path={routes.centerPage()} element={<CenterPage />} />
-<<<<<<< HEAD
-        <Route path={routes.childrenGamesPage()} element={<ChildrenGames />} />
-=======
         <Route path={routes.svyazPage()} element={<SvyazPage />} />
->>>>>>> 2f99156c1ad9983336229e13d2139404d837c7f7
+        <Route path={routes.chidrenGamesPage()} element={<ChildrenGamesPage/>} />
       </Routes>
     </BrowserRouter>
   );
