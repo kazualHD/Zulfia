@@ -18,12 +18,12 @@
 }
 
 .q p {
-    color: purple;
+    color: rgb(22, 22, 22);
     font-weight: bold;
 }
 
 .q ul {
-    color: purple;
+    color: rgb(24, 24, 24);
 }
 
 .q hr {
