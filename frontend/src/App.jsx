@@ -13,7 +13,7 @@ import BazaPage from './pages/BazaPage.jsx';
 import PamyatkaPage from './pages/PamyatkaPage.jsx';
 import CenterPage from './pages/CenterPage.jsx';
 import SvyazPage from './pages/SvyazPage.jsx';
-import ChildrenGamesPage from './pages/ChildreGamesPage.jsx';
+import ChildrenGamesPage from './pages/ChildrenGamesPage.jsx';
 
 function App() {
   return (

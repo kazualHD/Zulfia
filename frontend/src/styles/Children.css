@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 .container {
     padding: 20px;
     max-width: 1152px;
@@ -16,7 +15,6 @@
     border: 0px solid black;
     box-shadow: 5px 5px 10px #0000004f;
     border-radius: 25px;
-    position: relative;
     z-index: -1;
 }
 
@@ -46,8 +44,6 @@
 .d-flex .w-60 {
     width: 60%;
 }
-
-
 
 .greeting {
   text-align: center;
@@ -138,4 +134,3 @@
     width: 30px;
 }
 
->>>>>>> 6f5f83713b45904d2388975a092bff4023e72ceb

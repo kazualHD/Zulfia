@@ -1,3 +1,40 @@
-.w-200 {
-  width: 200px;
+.gg1 {
+    width: 1252px;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 25px;
+    border: 1px #000 solid;
+    box-shadow: 5px 5px 10px #0000007c;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+    
+}
+
+.gg1 a {
+    margin-left: 595px;
+    font-size: 20px;
+}
+
+.im1 {
+    width: 800px;
+    margin-left: 220px;
+}
+
+.im2 {
+    width: 800px;
+    margin-left: 220px;
+    margin-top: -30px;
+}
+
+.im4 {
+    display: flex;
+    justify-content: center;
+}
+
+.im4 img {
+    width: 500px;
+    margin: 20px 20px;
 }
