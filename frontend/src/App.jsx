@@ -12,6 +12,7 @@ import QualifyPage from './pages/QualifyPage.jsx';
 import BazaPage from './pages/BazaPage.jsx';
 import PamyatkaPage from './pages/PamyatkaPage.jsx';
 import CenterPage from './pages/CenterPage.jsx';
+import SvyazPage from './pages/SvyazPage.jsx';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path={routes.bazaPage()} element={<BazaPage />} />
         <Route path={routes.pamyatkaPage()} element={<PamyatkaPage />} />
         <Route path={routes.centerPage()} element={<CenterPage />} />
+        <Route path={routes.svyazPage()} element={<SvyazPage />} />
       </Routes>
     </BrowserRouter>
   );

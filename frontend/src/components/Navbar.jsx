@@ -35,8 +35,8 @@ const Navbar = () => {
           <Link to="/center"><li>Консультационный центр</li></Link>
         </ul>
       </div>
-      <div><p><Link to="/">Детям</Link></p></div>
-      <div><p><Link to="/">Обратная связь</Link></p></div>
+      <Link to="/"><div><p>Детям</p></div></Link>
+      <Link to="/svyaz"><div><p>Обратная связь</p></div></Link>
     </header>
   );
 }

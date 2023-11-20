@@ -1,4 +1,3 @@
-import happyChildren from '../assests/children/happyChildren.png';
 import pc2 from '../assests/children/2.JPG';
 import pc3 from '../assests/children/3.JPG';
 import pc4 from '../assests/children/4.jpg';
@@ -38,8 +37,7 @@ const Children = () => {
       
         <div class="container display-grid-6 border-radius-25 p-50">
     <div class="greeting child-container-grid d-flex d-column ">
-        <h3 class="h1-greeting ">Ментальная арфметика, как средство развития интиеллектуальных способностей дошкольников</h3>
-        <img src={happyChildren} alt="" class="img-greeting p-20 a-center "/>
+        <h3 class="h1-greeting ">Ментальная арфметика, как средство развития интеллектуальных способностей дошкольников</h3>
         <img src={start} alt="" class="img-greet-ing p20 a-center p-20 w-50"/>
     </div>
 
@@ -236,9 +234,11 @@ const Children = () => {
         <div className="main-content child-container-grid p-20">
         <div className=''>Онлайн-занятия. С детьми которые не посещают долго детский сад, по каким либо причинам, провожу занятия дистанционно.</div>
         <div className="d-flex p-20 g-20">
+        </div>
+        
         <iframe width="560" height="315" src="https://www.youtube.com/embed/53CF9KYF5nk?si=ydq0oT9Cb66PQYmS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/XcDhAqiQ62s?si=xOMJHl2oHtrtsGBC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
+        
      </div>
       
       

@@ -12,6 +12,7 @@ const routes = {
     bazaPage: () => '/baza',
     pamyatkaPage: () => '/pamyatka',
     centerPage: () => '/center',
+    svyazPage: () => '/svyaz',
 }
 
 export default routes;
