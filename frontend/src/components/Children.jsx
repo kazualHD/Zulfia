@@ -16,11 +16,6 @@ import pc16 from '../assests/children/14.png';
 import pc17 from '../assests/children/17.JPG';
 import pc18 from '../assests/children/017.JPG';
 import pc19 from '../assests/children/18.JPG';
-import pc20 from '../assests/children/20.png';
-import pc21 from '../assests/children/19.JPG';
-import pc22 from '../assests/children/21.jpg';
-import pc23 from '../assests/children/22.jpg';
-import pc24 from '../assests/children/23.jpg';
 import pc25 from '../assests/children/26.jpeg';
 import pc26 from '../assests/children/27.JPG';
 import pc27 from '../assests/children/28.png';
@@ -37,7 +32,7 @@ const Children = () => {
       
         <div class="container display-grid-6 border-radius-25 p-50">
     <div class="greeting child-container-grid d-flex d-column ">
-        <h3 class="h1-greeting ">Ментальная арфметика, как средство развития интеллектуальных способностей дошкольников</h3>
+        <h3 class="h1-greeting ">Развитие интеллектуального потенциала дошкольников в процессе освоения приемов ментальной арифметики</h3>
         <img src={start} alt="" class="img-greet-ing p20 a-center p-20 w-50"/>
     </div>
 
@@ -48,7 +43,7 @@ const Children = () => {
          <ul>
             <li> Гармоничное развитие обоих полушарий головного мозга</li>
             <li> Тренировка концентрации внимания</li>
-            <li> Тренировка фотографической и слоуховой памяти</li>
+            <li> Тренировка фотографической и слуховой памяти</li>
             <li> Тренировка скорости мышления</li>
          </ul>
     </div>
