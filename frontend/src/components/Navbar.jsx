@@ -25,7 +25,7 @@ const Navbar = () => {
         <ul>
             <li><Link to="/baza">Нормативно-правовая база</Link></li>
             <li><Link to="/teachers">Пособия</Link></li>
-        </ul>
+        </ul>s
         </div>
       <div>
         <p><Link to="/">Родителям</Link></p>
@@ -35,7 +35,7 @@ const Navbar = () => {
           <Link to="/center"><li>Консультационный центр</li></Link>
         </ul>
       </div>
-      <div><p><Link to="/">Детям</Link></p></div>
+      <div><p><Link to="/children-games">Детям</Link></p></div>
       <div><p><Link to="/">Обо мне</Link></p></div>
     </header>
   );
