@@ -30,3 +30,13 @@
     display: block;
     margin: 100px auto;
 }
+
+.cent {
+    width: 180px;
+    margin-left: 280px;
+}
+
+.qwerty {
+    display: flex;
+    justify-content: space-between;
+}
