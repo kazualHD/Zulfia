@@ -1,3 +1,7 @@
+body {
+    font-size: 18px;
+    font: 1.1em sans-serif;
+}
 
 .container {
     padding: 20px;
@@ -8,7 +12,8 @@
 .display-grid-6 {   
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px
+    gap: 0px
+    
 }
 .border-radius-25 {
     background: #fff;
@@ -53,7 +58,7 @@
   margin-left: 30px;
   padding: 20px;
   display: grid;
-  gap: 30px;
+  gap: 10px;
 }
 
 
@@ -134,3 +139,6 @@
     width: 30px;
 }
 
+.qwe1 {
+    margin-left: 30px;
+}
