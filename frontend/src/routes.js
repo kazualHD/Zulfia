@@ -14,6 +14,7 @@ const routes = {
     centerPage: () => '/center',
     svyazPage: () => '/svyaz',
     chidrenGamesPage: () => '/children-games',
+    umnyashaPage: () => '/umnyasha',
 }
 
 export default routes;

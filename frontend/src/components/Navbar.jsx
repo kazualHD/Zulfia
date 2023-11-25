@@ -11,13 +11,13 @@ const Navbar = () => {
           <Link to="/about-me"><li>Сведения</li></Link>
           <Link to="/im-teacher"><li>Я-воспитатель!</li></Link>
           <Link to="/results"><li>Мои достижения</li></Link>
-          <Link to="/my-publs"><li>Мои публикации</li></Link>
           <Link to="/qualify"><li>Повышение квалификации</li></Link>
         </ul>
       </div>
       <div><p><Link to="/">Педагогический опыт</Link></p>
         <ul>
           <Link to="/children"><li>Ментальная арифметика</li></Link>
+          <Link to="/umnyasha"><li>Умняша</li></Link>
         </ul>
       </div>
       <div>

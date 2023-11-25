@@ -1,0 +1,55 @@
+.qa1 {
+    width: 1152px;
+    margin: 50px auto;
+    box-shadow: 5px 5px 10px #0000006c;
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 50px;
+    padding-top: 40px;
+}
+
+.qa2 {
+    display: flex;
+}
+
+.qa2 img {
+    width: 45%;
+    margin: 20px auto;
+}
+
+.qa3 {
+    display: flex;
+}
+
+.qa3 img {
+    width: 45%;
+    margin: 20px 35px 20px 30px;
+}
+
+.qa4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.qa4 img {
+    width: 90%;
+}
+
+.jpg {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.qa1 h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.qa1 p {
+    margin: 20px 50px;
+    font-size: 20px;
+    font: 1.0em sans-serif;
+    margin-bottom: 0px;
+}

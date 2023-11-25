@@ -14,6 +14,7 @@ import PamyatkaPage from './pages/PamyatkaPage.jsx';
 import CenterPage from './pages/CenterPage.jsx';
 import SvyazPage from './pages/SvyazPage.jsx';
 import ChildrenGamesPage from './pages/ChildrenGamesPage.jsx';
+import UmnyashaPage from './pages/UmnyashaPage.jsx';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path={routes.centerPage()} element={<CenterPage />} />
         <Route path={routes.svyazPage()} element={<SvyazPage />} />
         <Route path={routes.chidrenGamesPage()} element={<ChildrenGamesPage/>} />
+        <Route path={routes.umnyashaPage()} element={<UmnyashaPage/>} />
       </Routes>
     </BrowserRouter>
   );
