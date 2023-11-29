@@ -5,7 +5,7 @@ import rod3 from "../assests/parents/rod3.png"
 import '../styles/Parents.css';
 import gimnastka from '../assests/parents/pdf/gimnastika.pdf';
 import skorochet from '../assests/parents/pdf/skorochet.pdf';
-import mental from '../assests/parents/pdf/mental.pdf';
+import mental from '../assests/parents/pdf/Igroteka.pdf';
 
 const Parents = () => {
     

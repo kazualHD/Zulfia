@@ -1,0 +1,55 @@
+.cont {
+    width: 1152px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #0000006b;
+    padding: 30px 50px;
+}
+
+.i3 {
+    display: flex;
+}
+
+.i3 img {
+    width: 30%;
+    margin: 20px auto;
+    transition: .5s;
+}
+
+.i3 img:hover {
+    transform: scale(1.1);
+}
+
+.i2 {
+    display: flex;
+    
+}
+
+.i2 img {
+    width: 47%;
+    margin: 20px auto;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.i2 img:hover {
+    transform: scale(1.1);
+}
+
+.i1 img {
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+.i1 img:hover {
+    transform: scale(1.05);
+}
+
+.cont p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}

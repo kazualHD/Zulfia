@@ -18,6 +18,7 @@ const Navbar = () => {
         <ul>
           <Link to="/children"><li>Ментальная арифметика</li></Link>
           <Link to="/umnyasha"><li>Умняша</li></Link>
+          <Link to="/galereya"><li>Галерея</li></Link>
         </ul>
       </div>
       <div>
