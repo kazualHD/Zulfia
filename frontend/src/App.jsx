@@ -16,6 +16,8 @@ import SvyazPage from './pages/SvyazPage.jsx';
 import ChildrenGamesPage from './pages/ChildrenGamesPage.jsx';
 import UmnyashaPage from './pages/UmnyashaPage.jsx';
 import GalereyaPage from './pages/GalereyaPage.jsx';
+import RodsPage from './pages/RodsPage.jsx';
+import PedsPage from './pages/PedsPage.jsx';
 
 function App() {
   return (
@@ -37,6 +39,8 @@ function App() {
         <Route path={routes.chidrenGamesPage()} element={<ChildrenGamesPage/>} />
         <Route path={routes.umnyashaPage()} element={<UmnyashaPage/>} />
         <Route path={routes.galereyaPage()} element={<GalereyaPage/>} />
+        <Route path={routes.pedsPage()} element={<PedsPage/>} />
+        <Route path={routes.rodsPage()} element={<RodsPage/>} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,26 +1,22 @@
-import pc2 from '../assests/children/2.JPG';
-import pc3 from '../assests/children/3.JPG';
-import pc4 from '../assests/children/4.jpg';
-import pc5 from '../assests/children/5.JPG';
-import pc6 from '../assests/children/6.JPG';
-import pc7 from '../assests/children/7.jpg';
-import pc8 from '../assests/children/8.jpg';
+import pc2 from '../assests/children/1.1.JPG';
+import pc3 from '../assests/children/2.1.JPG';
+import pc4 from '../assests/children/2.2.JPG';
+import pc6 from '../assests/children/3.1.JPG';
+import pc7 from '../assests/children/3.2.JPG';
 import pc9 from '../assests/children/9.jpg';
 import pc10 from '../assests/children/10.png';
 import pc11 from '../assests/children/11.jpg';
-import pc12 from '../assests/children/12.JPG';
-import pc13 from '../assests/children/15.JPG';
-import pc14 from '../assests/children/16.JPG';
+import pc12 from '../assests/children/4.1.JPG';
+import pc13 from '../assests/children/4.2.JPG';
 import pc15 from '../assests/children/13.png';
 import pc16 from '../assests/children/14.png';
-import pc17 from '../assests/children/17.JPG';
-import pc18 from '../assests/children/017.JPG';
+import pc18 from '../assests/children/5.1.JPG';
 import pc19 from '../assests/children/18.JPG';
 import pc25 from '../assests/children/26.jpeg';
-import pc26 from '../assests/children/27.JPG';
+import pc26 from '../assests/children/6.1.JPG';
 import pc27 from '../assests/children/28.png';
-import pc28 from '../assests/children/30.JPG';
-import pc29 from '../assests/children/31.JPG';
+import pc28 from '../assests/children/7.1.JPG';
+import pc29 from '../assests/children/8.1.JPG';
 import pc30 from '../assests/children/32.jpg';
 import pc31 from '../assests/children/33.JPG';
 import start from '../assests/children/start.JPG';
@@ -80,9 +76,8 @@ const Children = () => {
 
     <div class='child-container-grid main-content'> <div> <span className='pl-5'>Наш</span> мозг состоит из двух полушарий – правого и левого. Каждое полушарие анализирует реальность по-разному. Левое полушарие «думает» о вещах с помощью слов, тогда как правое полушарие воспринимает вещи только в виде образов. Для развития обоих полушарий головного мозга, на каждом занятии используем кинезиологические упражнения. С детьми, мы называем эти упражнения просто, гимнастика для ума. </div>
        <div class='g-20 p-20 d-flex'>
-         <img className='w-30' src={pc3} alt="" />
-         <img src={pc4} alt="" />
-         <img src={pc5} alt="" />
+         <img className='w-50' src={pc3} alt="" />
+         <img src={pc4} className='w-50' alt="" />
        </div>
     </div>
     
@@ -92,9 +87,8 @@ const Children = () => {
     </div>
      <div className="child-container-grid main-content">
         <div className="d-flex p-20 g-20">
-            <img src={pc6} alt="" />
-            <img src={pc7} alt="" />
-            <img src={pc8} alt="" />
+            <img src={pc6} className='w-50' alt="" />
+            <img src={pc7} className='w-50' alt="" />
         </div>
         <div className="d-flex img-but a-center ">
             <img className='w-100' src={pc9} alt="" />
@@ -126,9 +120,9 @@ const Children = () => {
      </div>
      <div className="child-container-grid">
       <p className='qwe1'>Еще одно упражнение <b>таблица Шульте</b>, методика представляет собой таблицу из матрицы, которая состоит из определенного количества клеток, в каждой клетке в произвольном порядке вписаны цифры, задача ребенка как можно быстрее найти цифры либо в прямой последовательности, либо в обратной.</p>
-        <div className="d-flex p-50">
-            <img src={pc13} alt="" className="p-20 w-50" />
-            <img src={pc14} alt="" className="p-20 w-50" />
+        <div className="d-flex a-center p-50">
+            <img src={pc13} alt="" className="p-20 w-100" />
+            
         </div>
      </div>
 
@@ -153,9 +147,8 @@ const Children = () => {
 
      <div class='child-container-grid p-20'>  
        <div class='g-20 p-20 d-flex'>
-         <img src={pc17} alt="" />
-         <img src={pc18} alt="" />
-         <img src={pc19} alt="" />
+         <img src={pc18} className='w-50' alt="" />
+         <img src={pc19} className='w-50' alt="" />
        </div>
     </div>
       <div className="main-content child-container-grid ">

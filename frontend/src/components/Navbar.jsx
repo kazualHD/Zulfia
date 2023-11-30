@@ -26,12 +26,14 @@ const Navbar = () => {
         <ul>
             <Link to="/baza"><li>Нормативно-правовая база</li></Link>
             <Link to="/teachers"><li>Пособия</li></Link>
+            <Link to="/peds"><li>Полезные ссылки</li></Link>
         </ul>
         </div>
       <div>
         <p><Link to="/">Родителям</Link></p>
         <ul>
           <Link to="/pamyatka"><li>Консультации и памятки</li></Link>
+          <Link to="/rods"><li>Полезные ссылки</li></Link>
           <Link to="/parents"><li>Методические пособия</li></Link>
           <Link to="/center"><li>Консультационный центр</li></Link>
         </ul>
