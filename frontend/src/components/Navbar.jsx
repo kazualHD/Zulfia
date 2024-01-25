@@ -4,7 +4,11 @@ import '../styles/Navbar.css';
 const Navbar = () => {
   return (
     <header>
-      <div><p><Link to="/">Главная</Link></p></div>
+      <div><p><Link to="/">Главная</Link></p>
+      <ul>
+      <Link to="/novosti"><li>Новостная лента</li></Link>
+      </ul>
+      </div>
       <div>
         <p><Link to="/about-me">Обо мне</Link></p>
         <ul>
