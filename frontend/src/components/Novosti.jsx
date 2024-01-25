@@ -34,11 +34,12 @@ const Novosti = () => {
                 <img src={n31} alt=""/>
             </div>
             <div class="qa3">
-            <img src={n03} alt=""/>
+            
             <div class="qa4">
                 <img src={n01} alt=""/>
-                <img src={n0} alt=""/>
+                <img src={n0} alt=""/> 
             </div>
+            <img src={n03} alt=""/>
         </div>
         </div>
     )
