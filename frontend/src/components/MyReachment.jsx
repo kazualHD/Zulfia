@@ -10,6 +10,9 @@ import f9 from '../styles/reaches/9.jpg';
 import f10 from '../styles/reaches/10.jpg';
 import f12 from '../styles/reaches/12.jpg';
 import f14 from '../styles/reaches/14.jpg';
+import f15 from '../styles/reaches/rea1.jpg';
+import f16 from '../styles/reaches/rea2.jpg';
+import f17 from '../styles/reaches/rea3.jpg';
 import '../styles/MyReachment.css';
 
 const MyReachment = () => {
@@ -27,10 +30,14 @@ const MyReachment = () => {
             <div class="z10"><img src={f10} alt="" /></div>
             <div class="z12"><img src={f12} alt="" /></div>
             <div class="z14"><img src={f14} alt="" /></div>
+            <div class="z15"><img src={f15} alt="" /></div>
+            <div class="z16"><img src={f16} alt="" /></div>
+            <div class="z17"><img src={f17} alt="" /></div>
             <div class="zz1"><h1>2021-2023</h1></div>
             <div class="zz2"><h1>2019-2020</h1></div>
             <div class="zz3"><h1>2013-2019</h1></div>
             <div class="zz4"><h1>2011-2012</h1></div>
+            <div class="zz5"><h1>2024</h1></div>
         </div>
        
     )

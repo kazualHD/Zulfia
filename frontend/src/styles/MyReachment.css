@@ -5,9 +5,12 @@
     margin: 30px auto;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 600px 80px 600px 70px 600px 70px 600px 70px 600px;
+    grid-template-rows: 600px 70px 600px 600px 80px 600px 70px 600px 70px 600px 70px 600px;
     grid-template-areas: 
     '. d d d d .'
+    'zz5 zz5 . . . .'
+    '. o o o o .'
+    '. p p r r .'
     'zz1 zz1 . . . .'
     'n n l l j j'
     'zz2 zz2 . . . .'
@@ -90,6 +93,18 @@
     grid-area: n;
 }
 
+.z15 {
+    grid-area: o;
+}
+
+.z16 {
+    grid-area: p;
+}
+
+.z17 {
+    grid-area: r;
+}
+
 .zz1 {
     grid-area: zz1;
     text-align: center;
@@ -110,6 +125,12 @@
 
 .zz4 {
     grid-area: zz4;
+    text-align: center;
+    color: purple;
+}
+
+.zz5 {
+    grid-area: zz5;
     text-align: center;
     color: purple;
 }
