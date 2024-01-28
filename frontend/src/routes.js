@@ -19,6 +19,7 @@ const routes = {
     pedsPage: () => '/peds',
     rodsPage: () => '/rods',
     novostiPage: () => '/novosti',
+    initiativePage:() => '/initiative',
 }
 
 export default routes;

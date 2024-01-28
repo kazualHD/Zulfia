@@ -25,7 +25,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div>
-        <p><Link to="/">Педагогам</Link></p>
+        <p><Link to="/initiative">Педагогам</Link></p>
         <ul>
             <Link to="/baza"><li>Нормативно-правовая база</li></Link>
             <Link to="/teachers"><li>Пособия</li></Link>

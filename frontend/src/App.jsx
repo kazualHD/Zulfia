@@ -19,6 +19,7 @@ import GalereyaPage from './pages/GalereyaPage.jsx';
 import RodsPage from './pages/RodsPage.jsx';
 import PedsPage from './pages/PedsPage.jsx';
 import NovostiPage from './pages/NovostiPage.jsx';
+import InitiativePage from './pages/InitiativePage.jsx';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
         <Route path={routes.pedsPage()} element={<PedsPage/>} />
         <Route path={routes.rodsPage()} element={<RodsPage/>} />
         <Route path={routes.novostiPage()} element={<NovostiPage/>} />
+        <Route path={routes.initiativePage()} element={<InitiativePage/>} />
       </Routes>
     </BrowserRouter>
   );

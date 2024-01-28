@@ -1,0 +1,24 @@
+
+.w-10 {
+    width: 10%;
+    margin: 0 auto;
+}
+
+.w-15 {
+    width: 15%;
+    margin: 0 auto;
+}
+
+
+.w-20 {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.b-margin {
+    margin-bottom: 20px;
+}
+
+.center {
+    margin: 0 auto;
+}

@@ -109,6 +109,9 @@ body {
 .pl-10 {
     padding: 0 10px;
 }
+.pl-30 {
+    padding-left: 30px;
+}
 
 .f-1 {
     flex: 1 1 0;
