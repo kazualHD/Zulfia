@@ -38,3 +38,12 @@ h1 {
     width: 500px;
     margin: 20px 20px;
 }
+
+.rebus {
+    display: flex;
+    justify-content: center;
+}
+
+.rebus img {
+    width: 30%;
+}

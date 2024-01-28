@@ -36,3 +36,15 @@
     text-decoration: underline;
 }
 
+.z3 img {
+    width: 90%;
+}
+
+.z4 {
+    display: flex;
+    justify-content: center;
+}
+
+.z4 img {
+    width: 65%;
+}

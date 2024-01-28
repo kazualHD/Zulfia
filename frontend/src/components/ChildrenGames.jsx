@@ -13,17 +13,31 @@ import o12 from '../assests/childrenGames/pazlu-primer/3.jpg'
 import o13 from '../assests/childrenGames/pazlu-primer/4.jpg'
 import o14 from '../assests/childrenGames/strup/2.JPG'
 import o15 from '../assests/childrenGames/strup/3.JPG'
-import o16 from '../assests/childrenGames/shulte.jpg'
 import dow1 from '../assests/zip/krossvord.zip'
 import dow2 from '../assests/zip/Labirint.zip'
 import dow3 from '../assests/zip/pazli.zip'
 import dow4 from '../assests/zip/strup.zip'
+import reb1 from '../assests/childrenGames/reb1.jpg'
+import reb2 from '../assests/childrenGames/reb2.jpg'
+import reb3 from '../assests/childrenGames/reb3.jpg'
+import reb4 from '../assests/childrenGames/reb4.jpg'
+import reb5 from '../assests/childrenGames/reb5.jpg'
 
 import '../styles/ChildrenGames.css';
 
 const ChildrenGames = () => {
     return (
         <div class="gg1">
+            <h1>Ребусы</h1>
+            <div className="im4">
+                <img src={reb1} alt="" />
+                <img src={reb2} alt="" />
+            </div>
+            <div className='rebus'>
+                <img src={reb3} alt="" />
+                <img src={reb4} alt="" />
+                <img src={reb5} alt="" />
+            </div>
             <h1>Большие и малые числа</h1>
             <img class="im1" src={o1} alt="" />
             <h1>Кросворды</h1><a href={dow1} download>скачать</a>
@@ -58,7 +72,7 @@ const ChildrenGames = () => {
                 <img src={o14} alt="" />
                 <img src={o15} alt="" />
             </div>
-            <img class="im2" src={o16} alt="" />
+            
         </div>
     )
 }

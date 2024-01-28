@@ -12,7 +12,6 @@ const Navbar = () => {
       <div>
         <p><Link to="/about-me">Обо мне</Link></p>
         <ul>
-          <Link to="/about-me"><li>Сведения</li></Link>
           <Link to="/im-teacher"><li>Я-воспитатель!</li></Link>
           <Link to="/results"><li>Мои достижения</li></Link>
           <Link to="/qualify"><li>Повышение квалификации</li></Link>
@@ -36,7 +35,7 @@ const Navbar = () => {
       <div>
         <p><Link to="/">Родителям</Link></p>
         <ul>
-          <Link to="/pamyatka"><li>Консультации и памятки</li></Link>
+          <Link to="/pamyatka"><li>Памятки</li></Link>
           <Link to="/rods"><li>Полезные ссылки</li></Link>
           <Link to="/parents"><li>Методические пособия</li></Link>
           <Link to="/center"><li>Консультационный центр</li></Link>
