@@ -15,17 +15,18 @@ const Navbar = () => {
           <Link to="/im-teacher"><li>Я-воспитатель!</li></Link>
           <Link to="/results"><li>Мои достижения</li></Link>
           <Link to="/qualify"><li>Повышение квалификации</li></Link>
-        </ul>
-      </div>
-      <div><p><Link to="/">Педагогический опыт</Link></p>
-        <ul>
-          <Link to="/children"><li>Ментальная арифметика</li></Link>
-          <Link to="/umnyasha"><li>Умняша</li></Link>
           <Link to="/galereya"><li>Галерея</li></Link>
         </ul>
       </div>
+      <Link to="/initiative"><div><p>Пед. находка</p></div></Link>
+      <div><p><Link to="/">Пед. опыт</Link></p>
+        <ul>
+          <Link to="/umnyasha"><li>Раннее развитие</li></Link>
+          <Link to="/children"><li>Интеллектуальное развитие</li></Link>=
+        </ul>
+      </div>
       <div>
-        <p><Link to="/initiative">Педагогам</Link></p>
+        <p><Link to="/">Педагогам</Link></p>
         <ul>
             <Link to="/baza"><li>Нормативно-правовая база</li></Link>
             <Link to="/teachers"><li>Пособия</li></Link>
