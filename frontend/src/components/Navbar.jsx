@@ -37,7 +37,7 @@ const Navbar = () => {
         <ul>
           <Link to="/pamyatka"><li>Памятки</li></Link>
           <Link to="/rods"><li>Полезные ссылки</li></Link>
-          <Link to="/parents"><li>Методические пособия</li></Link>
+          <Link to="/parents"><li>Пособия</li></Link>
           <Link to="/center"><li>Консультационный центр</li></Link>
         </ul>
       </div>
