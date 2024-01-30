@@ -18,9 +18,9 @@ const Navbar = () => {
           <Link to="/galereya"><li>Галерея</li></Link>
         </ul>
       </div>
-      <Link to="/initiative"><div><p>Пед. находка</p></div></Link>
-      <div><p><Link to="/">Пед. опыт</Link></p>
+      <div><p><Link to="/">Педагогический опыт</Link></p>
         <ul>
+        <Link to="/initiative"><li>Практика детской инициативы</li></Link>
           <Link to="/umnyasha"><li>Раннее развитие</li></Link>
           <Link to="/children"><li>Интеллектуальное развитие</li></Link>=
         </ul>
